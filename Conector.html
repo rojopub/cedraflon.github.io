@@ -1,0 +1,669 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd"> 
+ <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><style id="mceDefaultStyles" type="text/css">.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+.mce-content-body div.mce-resizehandle {position: absolute;border: 1px solid black;box-sizing: content-box;background: #FFF;width: 7px;height: 7px;z-index: 10000}.mce-content-body .mce-resizehandle:hover {background: #000}.mce-content-body img[data-mce-selected],.mce-content-body hr[data-mce-selected] {outline: 1px solid black;resize: none}.mce-content-body .mce-clonedresizable {position: absolute;outline: 1px dashed black;opacity: .5;filter: alpha(opacity=50);z-index: 10000}.mce-content-body .mce-resize-helper {background: #555;background: rgba(0,0,0,0.75);border-radius: 3px;border: 1px;color: white;display: none;font-family: sans-serif;font-size: 12px;white-space: nowrap;line-height: 14px;margin: 5px 10px;padding: 5px;position: absolute;z-index: 10001}
+.mce-visual-caret {position: absolute;background-color: black;background-color: currentcolor;}.mce-visual-caret-hidden {display: none;}*[data-mce-caret] {position: absolute;left: -1000px;right: auto;top: 0;margin: 0;padding: 0;}
+.mce-content-body .mce-offscreen-selection {position: absolute;left: -9999999999px;max-width: 1000000px;}.mce-content-body *[contentEditable=false] {cursor: default;}.mce-content-body *[contentEditable=true] {cursor: text;}
+</style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0,minimum-scale=1.0,maximum-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,800,700italic,700,600italic,600,400italic,300italic,300|Raleway:400,200,100,300,500,600,700,800,900" rel="stylesheet" type="text/css">
+    <base target="_blank"><!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG></o:AllowPNG><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]-->
+    <title>C</title>
+    <style>
+
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+html {
+  width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 720px) {
+            body {
+                width: auto !important;
+            }
+        }
+
+
+
+
+@media only screen and (max-width: 479px) {
+            body {
+                width: auto !important;
+            }
+        }
+
+
+
+
+.rss-widget a.rss-title {
+  color: rgb(91, 156, 199);
+}
+
+
+
+
+.rss-widget, .rss-widget a {
+  color: rgb(91, 156, 199);
+}
+
+
+
+
+</style>
+<style sh-font-styles="">
+/* Generated by SharpSpring -- Do not edit */
+[class].font1 {font-family: 'Open Sans',Arial, sans-serif !important;}
+[class].font2 {font-family: 'Open Sans',Arial, sans-serif !important;}
+</style>
+<style sh-template-styles="">/* Generated CSS, do not edit */
+
+    
+html {
+  width: 100%;
+}
+    
+div, p, a, li, td {
+  -webkit-text-size-adjust: none;
+}
+    
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+    
+td {
+  word-break: break-word;
+}
+    
+.fitTable img {
+  width: 100% !important;
+}
+    
+body p {
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+  margin-top: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+}
+    
+@media only screen and (max-width: 800px) {
+      body {
+        width: auto!important;
+      }
+      table[class=full] {
+        width: 100%!important;
+        clear: both;
+      }
+      .full {
+        width: 100%!important;
+        clear: both;
+      }
+      table[class=mobile] {
+        width: 100%!important;
+        padding-left: 30px;
+        padding-right: 30px;
+        clear: both;
+      }
+      table[class=fullCenter] {
+        width: 100%!important;
+        text-align: center!important;
+        clear: both;
+      }
+      td[class].fullCenter {
+        width: 100%!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .fullCenter {
+        width: 100%!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .erase {
+        display: none;
+      }
+      .pad20 {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .h10 {
+        width: 100%!important;
+        height: 10px!important;
+      }
+      .h20 {
+        width: 100%!important;
+        height: 20px!important;
+      }
+      .h30 {
+        width: 100%!important;
+        height: 30px!important;
+      }
+      .h40 {
+        width: 100%!important;
+        height: 40px!important;
+      }
+      .h50 {
+        width: 100%!important;
+        height: 50px!important;
+      }
+      td[class=pad20] {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .image600 img {
+        width: 100%!important;
+      }
+      .imgFull img {
+        width: 100%!important;
+      }
+      .margErase {
+        margin-left: 0px!important;
+        margin-top: 10px!important;
+      }
+      .img175 img {
+        width: 100%!important;
+      }
+      .img225 img {
+        width: 100%!important;
+      }
+      .image340 img {
+        width: 100%!important;
+      }
+      .img370 img {
+        width: 100%!important;
+      }
+      .img250 img {
+        width: 100%!important;
+      }
+      .buttonScale {
+        float: none!important;
+        text-align: center!important;
+        display: inline-block!important;
+        clear: both;
+      }
+      table[class=mcenter] {
+        text-align: center;
+        vertical-align: middle;
+        clear: both!important;
+        float: none;
+        margin: 0px!important;
+      }
+    }
+    
+@media only screen and (max-width: 479px) {
+      body {
+        width: auto!important;
+      }
+      table[class=full] {
+        width: 100%!important;
+        clear: both;
+      }
+      .full {
+        width: 100%!important;
+        clear: both;
+      }
+      table[class=mobile] {
+        width: 100%!important;
+        padding-left: 20px;
+        padding-right: 20px;
+        clear: both;
+      }
+      .mobile {
+        width: 100%!important;
+        padding-left: 20px;
+        padding-right: 20px;
+        clear: both;
+      }
+      table[class=fullCenter] {
+        width: 100%!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .fullCenter {
+        width: 100%!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .fullMob {
+        width: 100%!important;
+        text-align: center!important;
+        clear: both;
+      }
+      td[class].fullCenter {
+        width: 100%!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .erase {
+        display: none;
+      }
+      .eraseMob {
+        display: none;
+      }
+      .h10 {
+        width: 100%!important;
+        height: 10px!important;
+      }
+      .h20 {
+        width: 100%!important;
+        height: 20px!important;
+      }
+      .h30 {
+        width: 100%!important;
+        height: 30px!important;
+      }
+      .h40 {
+        width: 100%!important;
+        height: 40px!important;
+      }
+      .h50 {
+        width: 100%!important;
+        height: 50px!important;
+      }
+      td[class=pad20] {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .pad20 {
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        text-align: center!important;
+        clear: both;
+      }
+      .image600 img {
+        width: 100%!important;
+      }
+      .image350 img {
+        width: 100%!important;
+      }
+      .image340 img {
+        width: 100%!important;
+      }
+      .image290 img {
+        width: 100%!important;
+      }
+      .image284 img {
+        width: 100%!important;
+      }
+      .image286 img {
+        width: 100%!important;
+      }
+      .imgFull img {
+        width: 100%!important;
+      }
+      .imgFullMob img {
+        width: 100%!important;
+      }
+      .img225 img {
+        width: 100%!important;
+      }
+      .img370 img {
+        width: 100%!important;
+      }
+      .img250 img {
+        width: 100%!important;
+      }
+      .img175 img {
+        width: 100%!important;
+      }
+      .f22 {
+        font-size: 22px!important;
+        line-height: 26px!important;
+      }
+      .f26 {
+        font-size: 26px!important;
+        line-height: 30px!important;
+      }
+      .f30 {
+        font-size: 30px!important;
+      }
+      .f32 {
+        font-size: 32px!important;
+        line-height: 36px!important;
+      }
+      .buttonScale {
+        float: none!important;
+        text-align: center!important;
+        display: inline-block!important;
+        clear: both;
+      }
+      .btnMargin {
+        margin-left: 35px!important;
+        margin-top: 10px!important;
+        margin-right: 35px!important;
+      }
+      table[class=mcenter] {
+        text-align: center;
+        vertical-align: middle;
+        clear: both!important;
+        float: none;
+        margin: 0px!important;
+      }
+    }
+  
+</style>
+<link rel="stylesheet" type="text/css" id="u0" href="https://cst2.marketingautomation.services/includes/js/tinymce/skins/ss_skin/skin.min.css?v=1.1.1"><link rel="stylesheet" type="text/css" id="u1" href="https://cst2.marketingautomation.services/includes/js/tinymce/skins/ss_skin/content.inline.min.css?v=1.1.1"><link sh-font-google-all="" href="https://fonts.googleapis.com/css?family=Open+Sans:200,400,400i,800,800i" rel="stylesheet" type="text/css"></head>
+<body style="font-family: Helvetica; color: rgb(69, 69, 69); background-color: rgb(255, 255, 255); margin-top: 0px;" class="body show-dynamic" bgcolor="#ffffff"><div sh-section="Body" class="">
+<div sh-template-name="shsp-wireframe" sh-layout="Small Centered Image With Text" class="shsp-wireframe shsp-wireframe-layout-centered-image-with-text">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full body" bgcolor="#ffffff" style="color: rgb(1, 1, 1); background-color: rgb(255, 255, 255);">
+        <tbody>
+          <tr>
+            <td align="center" valign="top" class="">
+              <table sh-layout-editable="" width="800" border="0" cellpadding="0" cellspacing="0" align="center" class="full content" bgcolor="#ffffff" style="width: 800px; background-color: rgb(255, 255, 255);">
+                <tbody>
+                  <tr>
+                    <td width="100%" valign="top" align="center" class="">
+                      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+                        <tbody>
+                          <tr>
+                            <td align="center" class="pad20">
+                              <table width="190" border="0" cellpadding="0" cellspacing="0" align="center" class="full" style="width: 190px;">
+                                <tbody>
+                                  <tr>
+                                    <td height="35" width="100%" style="font-size: 1px; line-height: 1px;" sh-spacer="" class="non-editable">&nbsp;</td>
+                                  </tr>
+                                  <tr>
+                                    <td width="100%" align="center">
+                                      <div sh-container="1" class=""><div sh-content-block="Image" class="" style=""><div class="inline-editor-25" data-inline-editor="25" id="mce_27" style="position: relative;"><table width="100%" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" data-mce-style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr><td><a href="#" style="text-decoration: none; color: #ffffff;" data-mce-href="#" data-mce-style="text-decoration: none; color: #ffffff;" data-mce-selected="inline-boundary"> <img src="https://s3.amazonaws.com/ss-usa/companies/MzawMDGzNDEyAAA/uploads/logo_digital_solvers.png" alt="" border="0" data-mce-src="https://s3.amazonaws.com/ss-usa/companies/MzawMDGzNDEyAAA/uploads/logo_digital_solvers.png" width="200"> </a></td></tr></tbody></table></div></div></div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="full" style="width: 700px;">
+                                <tbody>
+                                  <tr>
+                                    <td width="100%" align="center">
+                                      <div sh-container="1" class="">
+                                        <div sh-content-block="Article" class=""><div class="inline-editor-21" data-inline-editor="21" id="mce_23" style="position: relative;"><table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" class="fullCenter" data-mce-style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr style="text-align: left;" data-mce-style="text-align: left;"><td height="25" width="100%" style="font-size: 1px; line-height: 1px;" class="non-editable" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr><tr style="text-align: left;" data-mce-style="text-align: left;"><td valign="middle" width="100%" style="font-size: 18px; color: #313131; line-height: 22px; font-weight: 600;" class="" data-mce-style="font-size: 18px; color: #313131; line-height: 22px; font-weight: 600;"><br></td></tr><tr><td height="25" width="100%" style="font-size: 1px; line-height: 1px;" class="non-editable" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr><tr><td valign="middle" width="100%" style="font-size: 14px; color: #010101; line-height: 22px; font-weight: 400; text-align: left;" class="" data-mce-style="font-size: 14px; color: #010101; line-height: 22px; font-weight: 400; text-align: left;"><p style="text-align: justify;" data-mce-style="text-align: justify;"><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 18px;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 18px;">Olá {$firstName},</span></strong></p><p style="text-align: justify;" data-mce-style="text-align: justify;"><br></p><p style="text-align: justify;" data-mce-style="text-align: justify;"><span style="font-size: 16px;" data-mce-style="font-size: 16px;"><strong>Connectors</strong></span></p><p style="text-align: justify;" data-mce-style="text-align: justify;"><br><span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;">Keypads, são aparelhos de votação interativa, muito eficazes para promover interação e engajamento em plenárias, workshops e eventos, dando à plateia ou audiência a possibilidade de opinar e votar durante as sessões.</span></p><p style="text-align: justify;" data-mce-style="text-align: justify;"><br></p><p style="text-align: justify;" data-mce-style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;">O Connector é a evolução dos Keypads de votação numérica, por ser um dispositivo all-in-one que proporciona aos participantes engajamento e interatividade nunca antes visto. Combinando soluções evoluídas de votação, teclado integrado para perguntas por texto com moderação, microfone de alta qualidade, 13 canais de áudio e um sistema em tempo real, proporciona ao seu evento uma solução integrada e única.</span></p><p style="text-align: justify;" data-mce-style="text-align: justify;"><br></p><p style="text-align: justify;" data-mce-style="text-align: justify;"><span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;">Ouvir quando outros participantes falam, ou ser ouvido durante uma sessão de Q&amp;A ou debate é muitas vezes um grande desafio a superar nas reuniões. O Connector coloca um microfone nas mãos de todos os participantes, garantindo a todos uma voz alta e clara, com opção de perguntas em texto, além de relatórios analíticos da participação de todos os envolvidos.</span><span style="color: #2fab76;" data-mce-style="color: #2fab76;"><span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;"></span></span><span style="color: #2fab76;" data-mce-style="color: #2fab76;"><span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;"></span></span></p></td></tr><tr><td class="non-editable" style="font-size: 1px; line-height: 1px; text-align: left;" width="100%" height="20" data-mce-style="font-size: 1px; line-height: 1px; text-align: left;" contenteditable="false"><br></td></tr></tbody></table></div></div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<div sh-template-name="shsp-wireframe" sh-layout="Two Column" class="shsp-wireframe shsp-wireframe-layout-two-column" style="">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full body" bgcolor="#ffffff" style="color: rgb(1, 1, 1); background-color: rgb(255, 255, 255);">
+        <tbody>
+          <tr>
+            <td align="center" valign="top" class="">
+              <table sh-layout-editable="" width="800" border="0" cellpadding="0" cellspacing="0" align="center" class="full content" bgcolor="#ffffff" style="width: 800px; background-color: rgb(255, 255, 255);">
+                <tbody>
+                  <tr>
+                    <td width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                      <table class="full" align="center" border="0" width="100%" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td width="100%" valign="top" align="center" class="">
+                              <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+                                <tbody>
+                                  <tr>
+                                    <td align="center" class="pad20" valign="top">
+                                      <table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="full" style="width: 700px;">
+                                        <tbody>
+                                          <tr>
+                                            <td width="100%" height="35" style="font-size: 1px; line-height: 1px;" sh-spacer="" class="non-editable">&nbsp;</td>
+                                          </tr>
+                                          <tr>
+                                            <td width="700" align="center" style="width: 700px;" class="image600" valign="top">
+                                              <!--[if (gte mso 9)|(IE)]>
+                                                  <table width="700" align="center">
+                                                     <tr>
+                                                        <td width="330" valign="top">
+                                                           <![endif]-->
+                                              <table class="fullCenter" align="left" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" border="0" width="330" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="fullCenter" align="left" valign="top" width="100%">
+                                                      <div sh-container="1" class="">
+                                                        <div sh-content-block="Article Column" class=""><table class="fullCenter" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" data-mce-style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;"><tbody><tr><td class="fullCenter image600 fitTable" align="left" valign="middle" width="100%"><a style="text-decoration: none; color: #0a0f0a;" href="#" data-mce-href="#" data-mce-style="text-decoration: none; color: #0a0f0a;"> <img class="hover" src="https://s3.amazonaws.com/ss-usa/companies/MzawMDGzNDEyAAA/uploads/ConnectorBrochure_Email.jpg" alt="" width="330" border="0" data-mce-src="https://s3.amazonaws.com/ss-usa/companies/MzawMDGzNDEyAAA/uploads/ConnectorBrochure_Email.jpg"> </a></td></tr><tr><td class="non-editable" style="font-size: 1px; line-height: 1px;" width="100%" height="18" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr><tr><td class="" style="text-align: left; color: #010101; line-height: 22px;" valign="middle" width="100%" data-mce-style="text-align: left; color: #010101; line-height: 22px;"><div class="text font2" style="color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 17px;" data-mce-style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 17px;"><strong>PERGUNTAS EM TEXTO</strong></span></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;" data-mce-style="color: #000000; font-family: arial, helvetica, sans-serif; font-size: 14px;">Os participantes podem fazer perguntas ou comentários usando um teclado alfanumérico completo e a tela de exibição do dispositivo.</span><br><div class="text font2" style="font-size: 14px; font-weight: 400; color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="font-size: 14px; font-weight: 400; color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><br></div><div class="text font2" style="font-size: 14px; font-weight: 400; color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="font-size: 14px; font-weight: 400; color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-size: 17px; color: #000000; font-family: arial, helvetica, sans-serif;" data-mce-style="font-size: 17px; color: #000000; font-family: arial, helvetica, sans-serif;"><strong>MICROFONE DE ALTA QUALIDADE</strong></span><br><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;">O Connector coloca um microfone nas mãos de cada participante, permitindo que cada pessoa partilhe seus comentários ou faça perguntas de forma produtiva.</span></div></div></div><div class="text font2" style="font-size: 14px; font-weight: 400; color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="font-size: 14px; font-weight: 400; color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><br><span style="font-size: 17px; color: #000000; font-family: arial, helvetica, sans-serif;" data-mce-style="font-size: 17px; color: #000000; font-family: arial, helvetica, sans-serif;"><strong>VOTAÇÃO APERFEIÇOADA</strong></span><br><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;">Faça perguntas à plateia numa grande variedade de formatos, incluindo múltipla escolha, valor, classificação, priorização, e resposta em texto.</span></div><div class="text font2" style="color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><br></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-size: 17px; color: #000000; font-family: arial, helvetica, sans-serif;" data-mce-style="font-size: 17px; color: #000000; font-family: arial, helvetica, sans-serif;"><strong>TRADUÇÃO SIMULTÂNEA</strong></span><br><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;">Para ouvir à tradução simultânea, os usuários podem escolher o idioma e ouvir o áudio adequado através de seus fones de ouvido.</span><br></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><br></div></div></div></td></tr><tr><td class="non-editable" style="font-size: 1px; line-height: 1px;" width="100%" height="20" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr></tbody></table></div><div sh-content-block="Article Column" class=""><div class="inline-editor-26" data-inline-editor="26" id="mce_28" style="position: relative;"><table class="fullCenter" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0" data-mce-style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;"><tbody><tr><td class="fullCenter image600 fitTable" align="left" valign="middle" width="100%"><a style="text-decoration: none; color: #0a0f0a;" href="#" data-mce-href="#" data-mce-style="text-decoration: none; color: #0a0f0a;"> <img class="hover" src="https://ss-usa.s3.amazonaws.com/companies/MzawMDGzNDEyAAA/uploads/folderName/imagetools0-1544820289558.jpg" alt="" width="330" border="0" data-mce-src="https://ss-usa.s3.amazonaws.com/companies/MzawMDGzNDEyAAA/uploads/folderName/imagetools0-1544820289558.jpg"> </a></td></tr><tr><td class="non-editable" style="font-size: 1px; line-height: 1px;" width="100%" height="18" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr><tr><td class="" style="text-align: left; line-height: 22px;" valign="middle" width="100%" data-mce-style="text-align: left; line-height: 22px;"><div class="text font2" style="color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 17px;" data-mce-style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 17px;"><strong>T</strong><strong><span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;">RANSFORME SEU EVENTO DANDO VOZ A SUA AUDIÊNCIA</span></strong></span></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;">Otimize workshops de qualquer formato e aproveite o conhecimento individual ou coletivo de sua audiência.</span><br><div class="text font2" style="color: rgb(69, 69, 69); font-size: 14px; font-weight: 400; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-size: 14px; font-weight: 400; font-family: 'Open Sans', Arial, sans-serif;"><br></div><div class="text font2" style="color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; color: #000000;"><span style="color: #000000; font-family: arial, helvetica, sans-serif;" data-mce-style="color: #000000; font-family: arial, helvetica, sans-serif;"><span style="font-size: 17px;" data-mce-style="font-size: 17px;"><strong>AUMENTE O ENGAJAMENTO DURANTE SUAS APRESENTAÇÕES</strong></span></span></span></div><div class="text font2" style="color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; font-weight: 400; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; font-weight: 400; color: #000000;">Permita que todos possam contribuir, mostrando aos seus funcionários e clientes que você valoriza suas ideias e opiniões, criando uma cultura inclusiva</span></div><div class="text font2" style="color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><br></div></div></div><div class="text font2" style="color: rgb(69, 69, 69); font-size: 14px; font-weight: 400; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-size: 14px; font-weight: 400; font-family: 'Open Sans', Arial, sans-serif;"><div class="text font2" style="color: rgb(69, 69, 69); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-family: 'Open Sans', Arial, sans-serif;"><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #000000;" data-mce-style="font-size: 17px; font-family: arial, helvetica, sans-serif; color: #000000;"><strong>INTEGRAÇÕES EM HTML PARA DEIXAR A ATIVIDADE MAIS LÚDICA</strong></span><br></div></div></div></td></tr><tr><td class="non-editable" style="font-size: 1px; line-height: 1px;" width="100%" height="20" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr></tbody></table></div></div>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td class="h40 non-editable" style="font-size: 1px; line-height: 1px;" width="100%" height="0">&nbsp;</td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <!--[if (gte mso 9)|(IE)]>
+                                                        </td>
+                                                        <td width="40"></td>
+                                                        <td width="330" valign="top">
+                                                           <![endif]-->
+                                              <table class="fullCenter" align="right" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" border="0" width="330" cellspacing="0" cellpadding="0">
+                                                <tbody>
+                                                  <tr>
+                                                    <td class="fullCenter" align="right" valign="top" width="100%">
+                                                      <div sh-container="1" class="">
+                                                        <div sh-content-block="Article Column" class=""><div class="inline-editor-22" data-inline-editor="22" id="mce_24" style="position: relative;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fullCenter" style="width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" data-mce-style="width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr><td width="100%" align="right" valign="middle" class="fullCenter image600 fitTable"><a style="text-decoration: none; color: #0a0f0a;" href="#" data-mce-href="#" data-mce-style="text-decoration: none; color: #0a0f0a;"> <img class="hover" src="https://ss-usa.s3.amazonaws.com/companies/MzawMDGzNDEyAAA/uploads/folderName/imagetools0-1544820264144.jpg" alt="" width="330" border="0" data-mce-src="https://ss-usa.s3.amazonaws.com/companies/MzawMDGzNDEyAAA/uploads/folderName/imagetools0-1544820264144.jpg"> </a></td></tr><tr><td valign="middle" width="100%" style="text-align: left; ;   font-size: 18px; color: #313131; line-height: 22px; font-weight: bold;" class="" data-mce-style="text-align: left; ;   font-size: 18px; color: #313131; line-height: 22px; font-weight: bold;"><br></td></tr><tr><td valign="middle" width="100%" style="text-align: left; line-height: 22px;" class="" data-mce-style="text-align: left; line-height: 22px;"><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 17px;" data-mce-style="font-family: arial, helvetica, sans-serif; color: #000000; font-size: 17px;"><strong>INDIVIDUAL DE DADOS</strong></span></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif;" data-mce-style="font-family: arial, helvetica, sans-serif;"><span style="font-size: 14px; font-weight: 400; color: #000000;" data-mce-style="font-size: 14px; font-weight: 400; color: #000000;">Os smartcards oferecem uma forma simples e eficiente de identificar e rastrear respostas individuais.<br></span><span style="font-size: 18px; font-weight: 400; color: #000000;" data-mce-style="font-size: 18px; font-weight: 400; color: #000000;"><span style="color: #000000;" data-mce-style="color: #000000;"></span></span></span></div><div class="text font2" style="color: rgb(69, 69, 69); font-size: 14px; font-weight: 400; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-size: 14px; font-weight: 400; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><br></div><div class="text font2" style="color: rgb(69, 69, 69); font-size: 14px; font-weight: 400; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-size: 14px; font-weight: 400; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; font-size: 17px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 17px; color: #000000;"><span style="color: #000000;" data-mce-style="color: #000000;"><strong>MÚLTIPLOS CANAIS DE ÁUDIO</strong></span></span><br><span style="color: #000000; font-size: 14px; font-family: arial, helvetica, sans-serif;" data-mce-style="color: #000000; font-size: 14px; font-family: arial, helvetica, sans-serif;">Os múltiplos canais de áudio do Connector podem ser usados para gravar conversas importantes da reunião, ou como uma ferramenta para auxiliar deficientes auditivos.</span><br><br><span style="font-family: arial, helvetica, sans-serif; font-size: 17px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 17px; color: #000000;"><span style="color: #000000;" data-mce-style="color: #000000;"><strong>TELA COLORIDA</strong></span></span><br><span style="color: #000000; font-size: 14px; font-family: arial, helvetica, sans-serif;" data-mce-style="color: #000000; font-size: 14px; font-family: arial, helvetica, sans-serif;">A tela colorida completa pode ser usada para valorizar o branding e patrocínio, além &nbsp;de exibir agendas, biografias dos palestrantes e outras informações relevantes.</span><br></div><div class="text font2" style="color: rgb(69, 69, 69); font-size: 14px; font-weight: 400; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-size: 14px; font-weight: 400; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><br></div><div class="text font2" style="color: rgb(69, 69, 69); font-size: 14px; font-weight: 400; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-size: 14px; font-weight: 400; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-size: 17px; font-family: arial, helvetica, sans-serif;" data-mce-style="font-size: 17px; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #000000;" data-mce-style="color: #000000;">SISTEMA DE COMUNICAÇÃO PORTÁTIL</span></strong></span><br></div><div class="text font2" style="color: rgb(69, 69, 69); font-size: 14px; font-weight: 400; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; font-size: 14px; font-weight: 400; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;">Cada Connector inclui um alto-falante, permitindo que os dispositivos sejam usados como sistemas de comunicação distribuídos entre o público.</span><br></div></td></tr><tr><td height="20" width="100%" style="font-size: 1px; line-height: 1px;" class="non-editable" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr></tbody></table></div></div><div sh-content-block="Article Column" class=""><div class="inline-editor-23" data-inline-editor="23" id="mce_25" style="position: relative;"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="fullCenter" style="width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" data-mce-style="width: 100%; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr><td width="100%" align="right" valign="middle" class="fullCenter image600 fitTable"><a style="text-decoration: none; color: #0a0f0a;" href="#" data-mce-href="#" data-mce-style="text-decoration: none; color: #0a0f0a;"> <img class="hover" src="https://s3.amazonaws.com/ss-usa/companies/MzawMDGzNDEyAAA/uploads/2.jpg" alt="" width="330" border="0" data-mce-src="https://s3.amazonaws.com/ss-usa/companies/MzawMDGzNDEyAAA/uploads/2.jpg"> </a></td></tr><tr><td valign="middle" width="100%" style="font-size: 18px; color: #313131; line-height: 22px; font-weight: bold;" class="" data-mce-style="font-size: 18px; color: #313131; line-height: 22px; font-weight: bold;"><br></td></tr><tr><td valign="middle" width="100%" style="text-align: left; line-height: 22px;" class="" data-mce-style="text-align: left; line-height: 22px;"><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-size: 17px;" data-mce-style="font-size: 17px;"><strong><span style="font-family: arial, helvetica, sans-serif; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; color: #000000;">I</span><span style="color: #000000; font-family: arial, helvetica, sans-serif;" data-mce-style="color: #000000; font-family: arial, helvetica, sans-serif;">NTERAÇÃO EM PLENÁRIAS</span></strong></span></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;"><span style="font-weight: 400;" data-mce-style="font-weight: 400;">Ofereça flexibilidade e fluidez durante suas plenárias e, ao mesmo tempo, mantenha o controle e ajuste o rumo de sua reunião de acordo com a visão de seus participantes.<br></span></span></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><br></div><div class="text font2" style="color: rgb(69, 69, 69); text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #454545; text-align: justify; font-family: 'Open Sans', Arial, sans-serif;"><span style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 14px; color: #000000;"><span style="font-weight: 400;" data-mce-style="font-weight: 400;"><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 17px;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 17px;">GAMIFICATION</span></strong><br>Crie scoreboards de grupos e individuos para promover a competição entre os&nbsp;<br><br><strong><span style="font-size: 17px;" data-mce-style="font-size: 17px;">WORD CLOUD</span></strong><br>Conheça as principais expectativas de sua audiência sobre os conteúdos de suas palestras e eventos.</span></span></div></td></tr><tr><td height="20" width="100%" style="font-size: 1px; line-height: 1px;" class="non-editable" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr></tbody></table><p><br></p></div></div>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                              <!--[if (gte mso 9)|(IE)]>
+                                                      </td>
+                                                   </tr>
+                                                </table>
+                                                <![endif]-->
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td height="40" width="100%" style="font-size: 1px; line-height: 1px;" sh-spacer="" class="non-editable">&nbsp;</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div><div sh-template-name="shsp-wireframe" sh-layout="Text Area" class="shsp-wireframe shsp-wireframe-layout-text-area" style="">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full body" bgcolor="#ffffff" style="color: rgb(1, 1, 1); background-color: rgb(255, 255, 255);">
+        <tbody>
+        <tr>
+          <td align="center" valign="top" class="">
+            <table sh-layout-editable="" width="800" border="0" cellpadding="0" cellspacing="0" align="center" class="full content" bgcolor="#ffffff" style="width: 800px; background-color: rgb(255, 255, 255);">
+              <tbody>
+              <tr>
+                <td width="100%" valign="top" align="center" class="">
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full">
+                    <tbody>
+                    <tr>
+                      <td align="center" class="pad20">
+                        <table width="700" border="0" cellpadding="0" cellspacing="0" align="center" class="full" style="width: 700px;">
+                          <tbody>
+                          <tr>
+                            <td height="25" width="100%" style="font-size: 1px; line-height: 1px;" sh-spacer="" class="non-editable">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td width="100%" align="center">
+                              <div sh-container="1" class="">
+                                <div sh-content-block="Text Area" class=""><div class="inline-editor-24" data-inline-editor="24" id="mce_26" style="position: relative;"><p><strong><span style="font-family: arial, helvetica, sans-serif; font-size: 17px;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 17px;">Aproveite condições de custo especiais para o primeiro trimestre de 2019!!!!!!</span></strong><br></p><p><br></p><p><span style="font-family: arial, helvetica, sans-serif; font-size: 17px;" data-mce-style="font-family: arial, helvetica, sans-serif; font-size: 17px;">Entre em contato para descobrir como os Connectors podem aprimorar suas reuniões e eventos corporativos.&nbsp;</span></p></div></div>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td height="40" width="100%" style="font-size: 1px; line-height: 1px;" sh-spacer="" class="non-editable">&nbsp;</td>
+                          </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+    </div><div sh-template-name="shsp-wireframe" sh-layout="Preheader" class="shsp-wireframe shsp-wireframe-layout-preheader" style="">
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full body" bgcolor="#ffffff" style="color: rgb(1, 1, 1); background-color: rgb(255, 255, 255);">
+        <tbody>
+          <tr>
+            <td align="center" valign="top" class="">
+              <table sh-layout-editable="" width="800" align="center" border="0" cellpadding="0" cellspacing="0" class="full" style="width: 800px;">
+                <tbody>
+                  <tr>
+                    <td width="100%" border="0" cellpadding="0" cellspacing="0" align="center">
+                      <table class="mobile" align="center" border="0" width="100%" cellpadding="0" cellspacing="0">
+                        <tbody>
+                          <tr>
+                            <td height="20" width="100%" style="font-size: 1px; line-height: 1px;" class="non-editable">&nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td width="100%" align="center" class="">
+                                      <div sh-container="1" class="">
+                                        <div sh-content-block="Article" class="" style=""><div class="inline-editor-10" data-inline-editor="10" id="mce_12" style="position: relative;"><div class="inline-editor-4" data-inline-editor="4" id="mce_6" style="position: relative;" data-mce-style="position: relative;"><table class="fullCenter" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center" data-mce-style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr><td class="" style="text-align: center; ;   font-size: 18px; color: #313131; line-height: 22px; font-weight: bold;" valign="middle" width="100%" data-mce-style="text-align: center; ;   font-size: 18px; color: #313131; line-height: 22px; font-weight: bold;"><div class="heading font1" style="color: rgb(1, 1, 1); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #010101; font-family: 'Open Sans', Arial, sans-serif;">Fale Conosco</div></td></tr><tr><td class="non-editable" style="font-size: 1px; line-height: 1px;" width="100%" height="15" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr><tr><td width="100%" class="fullCenter"><table width="100" border="0" cellpadding="0" cellspacing="0" align="center" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" class="buttonScale" data-mce-style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;"><tbody><tr><td width="26"><a href="https://www.facebook.com/DigitalSolvers/" style="text-decoration: none; color: #ffffff;" data-mce-href="https://www.facebook.com/DigitalSolvers/" data-mce-style="text-decoration: none; color: #ffffff;"><img src="https://ss-usa.s3.amazonaws.com/companies/MzYwNzKzMDM0BAA/uploads/5b7b1f7252149/wireframe_seb_social1.png" width="26" alt="" border="0" data-mce-src="https://ss-usa.s3.amazonaws.com/companies/MzYwNzKzMDM0BAA/uploads/5b7b1f7252149/wireframe_seb_social1.png"></a></td><td width="8" class=""><br></td><td width="26"><a href="https://twitter.com/digitalsolvers" style="text-decoration: none; color: #ffffff;" title="Behavior Design - Facilitar a Conversação" data-mce-href="https://twitter.com/digitalsolvers" data-mce-style="text-decoration: none; color: #ffffff;"><img src="https://ss-usa.s3.amazonaws.com/companies/MzYwNzKzMDM0BAA/uploads/5b7b1f7252149/wireframe_seb_social2.png" width="26" alt="" border="0" data-mce-src="https://ss-usa.s3.amazonaws.com/companies/MzYwNzKzMDM0BAA/uploads/5b7b1f7252149/wireframe_seb_social2.png"></a></td><td width="8" class=""><br></td><td width="26"><a href="https://www.linkedin.com/company/digital-solvers" style="text-decoration: none; color: #ffffff;" title="Behavior Design" data-mce-href="https://www.linkedin.com/company/digital-solvers" data-mce-style="text-decoration: none; color: #ffffff;"><img src="https://ss-usa.s3.amazonaws.com/companies/MzYwNzKzMDM0BAA/uploads/5b7b1f7252149/wireframe_seb_social3.png" width="26" alt="" border="0" data-mce-src="https://ss-usa.s3.amazonaws.com/companies/MzYwNzKzMDM0BAA/uploads/5b7b1f7252149/wireframe_seb_social3.png"></a></td></tr></tbody></table></td></tr><tr><td class="non-editable" style="font-size: 1px; line-height: 1px;" width="100%" height="15" data-mce-style="font-size: 1px; line-height: 1px;" contenteditable="false"><br></td></tr><tr><td class="" style="text-align: center; ;   font-size: 13px; color: #616161; line-height: 22px; font-weight: 400;" valign="middle" width="100%" data-mce-style="text-align: center; ;   font-size: 13px; color: #616161; line-height: 22px; font-weight: 400;"><div class="text font2" style="color: rgb(1, 1, 1); font-family: &quot;Open Sans&quot;, Arial, sans-serif;" data-mce-style="color: #010101; font-family: 'Open Sans', Arial, sans-serif;">+55 11 2500-5967<br>Av. Dr. Chucri Zaidan, 1.550 Conj 2705 - Vila São Francisco - São Paulo / SP - CEP 04711-130 - Brasil</div></td></tr></tbody></table></div></div></div>
+                                      </div>
+                                    </td>
+                          </tr>
+                          <tr>
+                            <td height="10" width="100%" style="font-size: 1px; line-height: 1px;" sh-spacer="" class="non-editable">&nbsp;</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div></div></body></html>
